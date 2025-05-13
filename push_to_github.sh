@@ -15,3 +15,6 @@ git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')"
 
 # Push to GitHub
 git push
+
+# Show a macOS notification using AppleScript
+osascript -e 'display notification "Project pushed to GitHub successfully!" with title "GitHub Sync"'
