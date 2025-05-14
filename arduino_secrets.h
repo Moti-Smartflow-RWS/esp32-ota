@@ -1,5 +1,0 @@
-#define SECRET_AUTH_POST "JLucas8c!@#"
-#define SECRET_AUTH_GET "Smartflow!@#"
-#define SECRET_AUTH_PUT "Smartflow!@#"
-#define WIFI_SSID "smartflow-rws"
-#define WIFI_PASSWORD "JLucas8c!@#"
