@@ -29,7 +29,7 @@
 - **Partition Scheme (ל־OTA):**  
   - מומלץ: **`Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)`** או  
   - כל פריסה שכוללת OTA (למשל “Minimal SPIFFS (1.9MB APP/190KB SPIFFS)”)
-- **Upload Speed:** `921600` (או פחות אם יש בעיות)
+- **Upload Speed:** `460800` (או פחות אם יש בעיות)
 - **CPU Frequency:** `240 MHz`
 - **Core Debug Level:** `None`
 - **PSRAM:** `Disabled` (אלא אם אתה צריך)
@@ -103,8 +103,8 @@
 - I²C: `SDA=23`, `SCL=22`
 
 ### RedBoard
-- `sensorPin = A0`
-- `IsPowerOnPin = A3`
+- `sensorPin = 36`
+- `IsPowerOnPin = 39`
 - `WaterValvePin = 25`
 - `PowerControlPin = 14`
 - I²C: `SDA=21`, `SCL=22`
