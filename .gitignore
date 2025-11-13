@@ -1,7 +1,0 @@
-*.elf
-*.hex
-*.map
-*.d
-*.o
-*.partitions.bin
-*.bootloader.bin
